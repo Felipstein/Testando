@@ -21,7 +21,7 @@ public class Main implements Runnable {
 	private void build() {
 		UIPanel panel = new UIPanel();
 		panel.buildDefaultPanel(frame);
-		new UIButton("Teste", panel, 10, 10, 200, 25);
+		new UIButton("Botãozin", panel, 10, 10, 200, 25);
 		this.frame.add(panel);
 	}
 	
